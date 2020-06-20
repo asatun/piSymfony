@@ -4,6 +4,7 @@ namespace WorktnBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use WorktnBundle\Entity\Cv;
@@ -88,9 +89,9 @@ class CvController extends Controller
             ->find($request->get('id'));
 
         $data = $request->getContent();
-       /* $cvold = $this->get('jms_serializer')->deserialize($data,Cv::class,'json');*/
+        $cvold = $this->get('jms_serializer')->deserialize($data,Cv::class,'json');
 
-        $cvnew
+  /*      $cvnew
             ->setAnneeObtention('2018')
             ->setCompetences('ffffff')
             ->setDiplome('info')
@@ -102,8 +103,8 @@ class CvController extends Controller
             ->setIdDomaine('2')
             ->setIdUtilisateur('1');
         $manager->persist($cvnew);
-        $manager->flush();
- /*       $cvnew
+        $manager->flush();*/
+        $cvnew
             ->setAnneeObtention($cvold->getAnneeObtention())
             ->setCompetences($cvold->getCompetences())
             ->setDiplome($cvold->getDiplome())
@@ -111,11 +112,11 @@ class CvController extends Controller
             ->setExpProf($cvold->getExpProf())
             ->setFormation($cvold->getFormation())
             ->setStage($cvold->getStage())
-            ->setTitree($cvold->getTitree())
+           /* ->setTitree($cvold->getTitre())*/
             ->setIdDomaine($cvold->getIdDomaine())
             ->setIdUtilisateur($cvold->getIdUtilisateur());
         $manager->persist($cvnew);
-        $manager->flush();*/
+        $manager->flush();
 
         return new JsonResponse(['modifier' => 'succes'], 200);
     }
