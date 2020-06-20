@@ -71,7 +71,7 @@ class publication_utilisateurController extends Controller
         return new JsonResponse([' commentaire modifier' => 'success'], 200);
     }
     /**
-     * @Route("/showallcom", methods={"GET","HEAD"})
+     * @Route("/api/showallcom", methods={"GET","HEAD"})
      */
     public function getallpublication()
     {
