@@ -1,0 +1,4 @@
+session_homepage:
+    path:     /
+    defaults: { _controller: SessionBundle:Default:index }
+
