@@ -1,9 +1,9 @@
 <?php
 
-namespace worktnBundle;
+namespace WorktnBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class worktnBundle extends Bundle
+class WorktnBundle extends Bundle
 {
 }
