@@ -2,7 +2,8 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
-
+    - { resource: "@ForumBundle/Resources/config/services.yml" }
+    - { resource: "@WorktnBundle/Resources/config/services.yml" }
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
@@ -16,7 +17,7 @@ framework:
         resource: '%kernel.project_dir%/app/config/routing.yml'
         strict_requirements: ~
     form: ~
-    csrf_protection: ~
+    #csrf_protection: ~
     validation: { enable_annotations: true }
     #serializer: { enable_annotations: true }
     default_locale: '%locale%'
@@ -69,3 +70,22 @@ swiftmailer:
 sensio_framework_extra:
    router:
         annotations: false
+fos_user:
+  db_driver: orm # other valid values are 'mongodb' and 'couchdb'
+  firewall_name: main
+  user_class: WorktnBundle\Entity\User
+  service:
+    mailer: fos_user.mailer.twig_swift
+  from_email:
+    address: "worktn@work.tn"
+    sender_name: "work.rn"
+fos_rest:
+  format_listener:
+    rules:
+      - { path: ^/, prefer_extension: true, fallback_format: json, priorities: [ json ] }
+lexik_jwt_authentication:
+    secret_key:       '%kernel.project_dir%/config/jwt/private.pem' # required for token creation
+    public_key:       '%kernel.project_dir%/config/jwt/public.pem'  # required for token verification
+    pass_phrase:      'work.tn' # required for token creation, usage of an environment variable is recommended
+    token_ttl:        36000
+

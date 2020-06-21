@@ -1,3 +1,42 @@
+worktn:
+    resource: "@WorktnBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+# app/config/routing.yml
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+api_login_check:
+    path: /api/login_check
+
+forum:
+    resource: "@ForumBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+show:
+    path:     /api/showallUsers
+    defaults: { _controller: WorktnBundle:User:showAllUsers }
+
+
+
+add:
+    path:  /adduser
+    defaults: { _controller: WorktnBundle:Security:postUser }
+
+update:
+    path:  /updateUser/{id}
+    defaults: { _controller: WorktnBundle:User:updateUser }
+
+byId:
+    path:     /user/{id}
+    defaults: { _controller: WorktnBundle:User:getUserById }
+
+delete:
+    path:     /delete/{id}
+    defaults: { _controller: WorktnBundle:User:delete }
