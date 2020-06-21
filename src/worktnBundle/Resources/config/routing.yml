@@ -1,0 +1,3 @@
+worktn_homepage:
+    path:     /
+    defaults: { _controller: worktnBundle:Default:index }
