@@ -1,13 +1,3 @@
-abonement:
-    resource: "@AbonementBundle/Controller/"
-    type:     annotation
-    prefix:   /
-
-sesion:
-    resource: "@SesionBundle/Controller/"
-    type:     annotation
-    prefix:   /
-
 app:
     resource: '@AppBundle/Controller/'
     type: annotation

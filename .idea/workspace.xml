@@ -2,87 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a924f4-ec27-4f2e-941f-d23a2409d5b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/AbonementBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Controller/abonementController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Entity/abonnement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Entity/abonnement_domaine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Repository/abonnementRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Repository/abonnement_domaineRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Resources/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbonementBundle/Tests/Controller/abonementControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/Controller/sessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/Entity/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/Repository/sessionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/Resources/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/SesionBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SesionBundle/Tests/Controller/sessionControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Controller/sessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Entity/abonnement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Entity/abonnement_domaine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Entity/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Entity/session_candidature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Entity/utilisateur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Resources/config/routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Resources/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/SessionBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionBundle/Tests/Controller/SessionControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Entity/abonnement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Entity/abonnement_domaine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Entity/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Entity/session_candidature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Entity/utilisateur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/abonnementRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/abonnement_domaineRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/commentaireRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/cvRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/domaine_activiteRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/etatRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/offre_emploiRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/profilRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/publicationRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/publication_utilisateurRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/sessionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/session_candidatureRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/session_profilRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/sous_domaineRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/utilisateurRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/utilisateur_offreRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Repository/utilisateur_profilRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Resources/config/routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Resources/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/worktnBundle/worktnBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AbonementBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AbonnementBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/SesionBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/SessionBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" beforeDir="false" afterPath="$PROJECT_DIR$/bin/symfony_requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backend.iml" afterPath="$PROJECT_DIR$/.idea/backend.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" phpInterpreterId="cbe0ae5a-7518-4e9b-8b19-e9d5555eb0be">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <marker date="1592323916762" expanded="true" signature="232:1432" ph="{...}" />
+                <marker date="1592323916762" expanded="true" signature="259:832" ph="..." />
+                <marker date="1592323916762" expanded="true" signature="907:1399" ph="..." />
+                <marker date="1592323916762" expanded="true" signature="1205:1389" ph="..." />
+                <marker date="1592323916762" expanded="true" signature="1466:1502" ph="{...}" />
+                <marker date="1592323916762" expanded="true" signature="1537:1620" ph="{...}" />
+                <marker date="1592323916762" expanded="true" signature="1653:1710" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +57,20 @@
       </map>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
@@ -141,64 +119,141 @@
       <path value="$PROJECT_DIR$/vendor/jms/metadata" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1dRrTrNrQlZyDwVxR0pcApDBY3m" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2391" />
+    <option name="y" value="234" />
+    <option name="width" value="1618" />
+    <option name="height" value="1248" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../php/php.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\piSymfonyasatun\piSymfony\src\worktnBundle\Repository" />
-      <recent name="C:\wamp64\www\piSymfonyasatun\piSymfony\src\worktnBundle\Entity" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="s doctrine:schema:update" />
-      <command value="s doctrine:schema:update --dump-sql" />
-      <command value="s cache:clear" />
-      <command value="s server:run" />
-      <command value="s generate:bundle" />
-      <command value="c dump-autoload" />
-      <command value="s doctrine:generate:entity" />
-      <command value="s generate:controller" />
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -208,96 +263,68 @@
       <option name="presentableId" value="Default" />
       <updated>1592320963433</updated>
       <workItem from="1592320964783" duration="3202000" />
-      <workItem from="1592398765138" duration="44698000" />
-      <workItem from="1592585961784" duration="260000" />
-      <workItem from="1592586396125" duration="11645000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3202000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2391" y="234" width="1618" height="1248" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2553" y="344" key="#com.intellij.ide.util.MemberChooser" timestamp="1592525362691">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2553" y="344" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592525362691" />
-    <state x="2553" y="475" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592493753617" />
-    <state x="1701" y="131" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592491301373">
-      <screen x="1366" y="131" width="1920" height="1040" />
-    </state>
-    <state x="1701" y="131" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592491301373" />
-    <state x="2056" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592589593566">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2056" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592589593566" />
-    <state x="1846" y="231" key="CommitChangelistDialog2" timestamp="1592590874905">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1846" y="231" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592590874905" />
-    <state x="550" y="266" key="ComposerCompositePathDialog" timestamp="1592423261363">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="550" y="266" key="ComposerCompositePathDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592423261363" />
-    <state x="605" y="119" key="FileChooserDialogImpl" timestamp="1592666588932">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="605" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592666588932" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1592666755469">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592666755469" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592656063884" />
-    <state width="1877" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592491363445" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1592666755469">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592666755469" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592656063884" />
-    <state width="1877" height="186" key="GridCell.Tab.0.center/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592491363445" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1592666755469">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592666755469" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592656063884" />
-    <state width="1877" height="186" key="GridCell.Tab.0.left/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592491363445" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1592666755469">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592666755469" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592656063884" />
-    <state width="1877" height="186" key="GridCell.Tab.0.right/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592491363445" />
-    <state x="1828" y="29" key="SettingsEditor" timestamp="1592432642108">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="329" y="20" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592423384033" />
-    <state x="1828" y="29" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592432642108" />
-    <state x="1829" y="297" key="SettingsEditor/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592396130373" />
-    <state x="598" y="289" key="SymfonyPathDialog" timestamp="1592423367555">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="598" y="289" key="SymfonyPathDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592423367555" />
-    <state x="2033" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1592586397609">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2033" y="348" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592586397609" />
-    <state x="2033" y="479" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.131.1920.1040@1366.131.1920.1040" timestamp="1592398765663" />
-    <state x="2033" y="276" width="585" height="488" key="find.popup" timestamp="1592436762626">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2033" y="276" width="585" height="488" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592436762626" />
-    <state x="505" y="212" key="git4idea.merge.GitMergeDialog" timestamp="1592424628852">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="505" y="212" key="git4idea.merge.GitMergeDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592424628852" />
-    <state x="339" y="162" width="673" height="678" key="run.anything.popup" timestamp="1592652952945">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592517692832" />
-    <state x="1842" y="231" width="945" height="968" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1592587199581" />
-    <state x="339" y="162" width="673" height="678" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592652952945" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <marker date="1592323916762" expanded="true" signature="232:1432" ph="{...}" />
+            <marker date="1592323916762" expanded="true" signature="259:832" ph="..." />
+            <marker date="1592323916762" expanded="true" signature="907:1399" ph="..." />
+            <marker date="1592323916762" expanded="true" signature="1205:1389" ph="..." />
+            <marker date="1592323916762" expanded="true" signature="1466:1502" ph="{...}" />
+            <marker date="1592323916762" expanded="true" signature="1537:1620" ph="{...}" />
+            <marker date="1592323916762" expanded="true" signature="1653:1710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
