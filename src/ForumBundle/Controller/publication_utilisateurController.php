@@ -2,8 +2,9 @@
 
 namespace ForumBundle\Controller;
 
-use ForumBundle\Entity\publication;
-use ForumBundle\Entity\publication_utilisateur;
+use EntityBundle\Entity\Publication;
+
+use EntityBundle\Entity\Publication_utilisateur;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -39,7 +40,7 @@ class publication_utilisateurController extends Controller
         $data = $request->getContent();
         //deserialisation
         $publicationutil = $this->get('jms_serializer')
-            ->deserialize($data,publication_utilisateur::class,'json');
+            ->deserialize($data,Publication_utilisateur::class,'json');
         $em = $this->getDoctrine()->getManager();
         $em->persist($publicationutil);
         //enregister publication
@@ -56,11 +57,11 @@ class publication_utilisateurController extends Controller
         $doctrine = $this->getDoctrine();
         $manager = $doctrine->getManager();
         $updpub = $doctrine
-            ->getRepository('ForumBundle:publication_utilisateur')
+            ->getRepository('EntityBundle:Publication_utilisateur')
             ->find($request->get('id'));
 
         $data = $request->getContent();
-        $publica = $this->get('jms_serializer')->deserialize($data,publication_utilisateur::class,'json');
+        $publica = $this->get('jms_serializer')->deserialize($data,Publication_utilisateur::class,'json');
 
         $updpub
             ->setLikeDislike($publica->getLikeDislike())
@@ -76,7 +77,7 @@ class publication_utilisateurController extends Controller
     public function getallpublication()
     {
         $publicationcommentaire = $this->getDoctrine()
-            ->getRepository('ForumBundle:publication_utilisateur')
+            ->getRepository('EntityBundle:Publication_utilisateur')
             ->findAll();
         $data = $this->get('jms_serializer')->serialize($publicationcommentaire , 'json');
         $response = new Response($data);
@@ -91,7 +92,7 @@ class publication_utilisateurController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $publication = $em
-            ->getRepository('ForumBundle:publication_utilisateur')
+            ->getRepository('EntityBundle:Publication_utilisateur')
             ->find($idreq);
         $em->remove($publication);
         $em->flush();
