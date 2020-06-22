@@ -1,3 +1,8 @@
+entity:
+    resource: "@EntityBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 abonement:
     resource: "@AbonementBundle/Controller/"
     type:     annotation
