@@ -1,9 +1,9 @@
 <?php
 
-namespace SessionBundle;
+namespace EntityBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SessionBundle extends Bundle
+class EntityBundle extends Bundle
 {
 }
