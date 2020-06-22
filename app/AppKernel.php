@@ -23,6 +23,9 @@ class AppKernel extends Kernel
             new FOS\RestBundle\FOSRestBundle(),
             new Lexik\Bundle\JWTAuthenticationBundle\LexikJWTAuthenticationBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new SesionBundle\SesionBundle(),
+            new AbonementBundle\AbonementBundle(),
+            new EntityBundle\EntityBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

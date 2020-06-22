@@ -2,7 +2,7 @@
 
 namespace ForumBundle\Controller;
 
-use ForumBundle\Entity\publication;
+use EntityBundle\Entity\Publication;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -16,7 +16,7 @@ class publicationController extends Controller
      */
     public function showAction()
     {
-        $pub = new publication();
+        $pub = new Publication();
         $pub
             ->setObjet('Mon premier article')
             ->setSujet('Le contenu de mon article.')

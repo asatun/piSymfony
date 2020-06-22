@@ -1,3 +1,18 @@
+entity:
+    resource: "@EntityBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+abonement:
+    resource: "@AbonementBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+sesion:
+    resource: "@SesionBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 worktn:
     resource: "@WorktnBundle/Controller/"
     type:     annotation

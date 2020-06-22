@@ -4,6 +4,11 @@ imports:
     - { resource: services.yml }
     - { resource: "@ForumBundle/Resources/config/services.yml" }
     - { resource: "@WorktnBundle/Resources/config/services.yml" }
+    - { resource: "@SesionBundle/Resources/config/services.yml" }
+    - { resource: "@AbonementBundle/Resources/config/services.yml" }
+    - { resource: "@EntityBundle/Resources/config/services.yml" }
+
+
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
@@ -17,7 +22,7 @@ framework:
         resource: '%kernel.project_dir%/app/config/routing.yml'
         strict_requirements: ~
     form: ~
-    #csrf_protection: ~
+    csrf_protection: ~
     validation: { enable_annotations: true }
     #serializer: { enable_annotations: true }
     default_locale: '%locale%'

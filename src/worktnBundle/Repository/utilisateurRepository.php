@@ -1,6 +1,6 @@
 <?php
 
-namespace ForumBundle\Repository;
+namespace worktnBundle\Repository;
 
 /**
  * utilisateurRepository
