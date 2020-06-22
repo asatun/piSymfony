@@ -18,7 +18,7 @@ class publication_utilisateurController extends Controller
      */
     public function showAction()
     {
-        $pub = new publication_utilisateur();
+        $pub = new Publication_utilisateur();
         $pub
             ->setCommentaire('Mon premier article')
             ->setLikeDislike(1)
@@ -102,7 +102,7 @@ class publication_utilisateurController extends Controller
     /**
      * @Route("/getpubidcom/{id}", methods={"GET","HEAD"})
      */
-    public function getcommentairebyid( publication_utilisateur $publication_utilisateur)
+    public function getcommentairebyid( Publication_utilisateur $publication_utilisateur)
     {
         $data = $this->get('jms_serializer')->serialize($publication_utilisateur , 'json');
         $response = new Response($data);
