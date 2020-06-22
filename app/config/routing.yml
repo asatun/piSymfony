@@ -23,11 +23,10 @@ show:
     path:     /api/showallUsers
     defaults: { _controller: WorktnBundle:User:showAllUsers }
 
-
-
-add:
+adduser:
     path:  /adduser
-    defaults: { _controller: WorktnBundle:Security:postUser }
+    defaults: { _controller: WorktnBundle:User:postUser }
+
 
 update:
     path:  /updateUser/{id}
