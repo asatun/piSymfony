@@ -36,9 +36,9 @@ class Publication
     private $sujet;
 
     /**
-     * @var string
+     * @var \DateTime
      *
-     * @ORM\Column(name="datePublication", type="DateTime")
+     * @ORM\Column(name="datePublication", type="date")
      */
     private $datePublication;
 
@@ -111,7 +111,7 @@ class Publication
     /**
      * Set datePublication
      *
-     * @param string $datePublication
+     * @param \DateTime $datePublication
      *
      * @return Publication
      */

@@ -7,9 +7,9 @@ security:
     role_hierarchy:
        # ROLE_ADMIN:       ROLE_USER
        #ROLE_SUPER_ADMIN: ROLE_ADMIN
-        ROLE_USER:        [ROLE_CUSTOMER_RSS, ROLE_CUSTOMER_ASS]
-        ROLE_AGENT:       ROLE_USER
-        ROLE_ADMIN:       ROLE_AGENT
+        #ROLE_USER:        [ROLE_CUSTOMER_RSS, ROLE_CUSTOMER_ASS]
+        ROLE_USER:        ROLE_CONDIDAT
+        ROLE_AGENT:       ROLE_AGENT
         ROLE_SUPER_ADMIN: ROLE_ADMIN
 
     providers:

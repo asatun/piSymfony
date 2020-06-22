@@ -30,6 +30,8 @@ class SecurityController extends FOSRestController
         }
 
         $form = $formFactory->createForm();
+        $user = $this->get('jms_serializer')
+            ->deserialize($request, 'WorktnBundle\Entity\User', 'json');
         $form->setData($user);
 
         $form->handleRequest($request);
@@ -37,6 +39,7 @@ class SecurityController extends FOSRestController
         if ($form->isValid()) {
             $event = new \FOS\UserBundle\Event\FormEvent($form, $request);
             $dispatcher->dispatch(\FOS\UserBundle\FOSUserEvents::REGISTRATION_SUCCESS, $event);
+
 
             $userManager->updateUser($user);
 
@@ -47,7 +50,9 @@ class SecurityController extends FOSRestController
 
             $dispatcher->dispatch(\FOS\UserBundle\FOSUserEvents::REGISTRATION_COMPLETED, new \FOS\UserBundle\Event\FilterUserResponseEvent($user, $request, $response));
 
-            $view = $this->view(array('token' => $this->get("lexik_jwt_authentication.jwt_manager")->create($user)), Codes::HTTP_CREATED);
+            $view = $this->view(array('token' => $this->get("lexik_jwt_authentication.jwt_manager")->create($user),
+            "allow_extra_fields"  => true
+            ), Codes::HTTP_CREATED);
 
             return $this->handleView($view);
         }
