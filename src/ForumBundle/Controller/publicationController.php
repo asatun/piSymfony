@@ -26,6 +26,8 @@ class publicationController extends Controller
 
         $response = new Response($data);
         $response->headers->set('Content-Type', 'application/json');
+        $response->headers->set('Access-Control-Allow-Origin', '^http:\/\/127.0.0.1:8000');
+        $response->headers->set('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, PATCH, OPTIONS');
 
         return $response;
     }
@@ -42,27 +44,27 @@ class publicationController extends Controller
         $em->persist($publication);
         //enregister publication
         $em->flush();
-
         return new Response('Enregistrer','201');
 
     }
     /**
-     * @Route("/updatepub/{idpublication}", methods={"PUT","HEAD"})
+     * @Route("/updatepub/{id}", methods={"PUT","HEAD"})
      */
     public function UpdatePublicationAction(Request $request){
 
         $doctrine = $this->getDoctrine();
         $manager = $doctrine->getManager();
         $updpub = $doctrine
-            ->getRepository('ForumBundle:publication')
-            ->find($request->get('idpublication'));
+            ->getRepository('EntityBundle:Publication')
+            ->find($request->get('id'));
 
         $data = $request->getContent();
-        $publica = $this->get('jms_serializer')->deserialize($data,publication::class,'json');
+        $publica = $this->get('jms_serializer')->deserialize($data,Publication::class,'json');
 
         $updpub
             ->setObjet($publica->getObjet())
-            ->setSujet($publica->getSujet());
+            ->setSujet($publica->getSujet())
+            ->setDatePublication($publica->getDatePublication());
         $manager->persist($updpub);
         $manager->flush();
 
@@ -74,22 +76,22 @@ class publicationController extends Controller
     public function getallpublication()
     {
         $publication = $this->getDoctrine()
-            ->getRepository('ForumBundle:publication')
+            ->getRepository('EntityBundle:Publication')
             ->findAll();
         $data = $this->get('jms_serializer')->serialize($publication , 'json');
         $response = new Response($data);
         return $response;
     }
     /**
-     * @Route("/deletepub/{idpublication}", methods={"DELETE","HEAD"})
+     * @Route("/deletepub/{id}", methods={"DELETE","HEAD"})
      */
     public function deletepublication(Request $request)
     {
-        $idreq = $request->get('idpublication');
+        $idreq = $request->get('id');
         $em = $this->getDoctrine()->getManager();
 
         $publication = $em
-            ->getRepository('ForumBundle:publication')
+            ->getRepository('EntityBundle:Publication')
             ->find($idreq);
         $em->remove($publication);
         $em->flush();
@@ -97,9 +99,9 @@ class publicationController extends Controller
         return new JsonResponse(['supprimé' => 'secces'], 200);
     }
     /**
-     * @Route("/getpubid/{idpublication}", methods={"GET","HEAD"})
+     * @Route("/getpubid/{id}", methods={"GET","HEAD"})
      */
-    public function getpublicationbyid( publication $publication)
+    public function getpublicationbyid( Publication $publication)
     {
         $data = $this->get('jms_serializer')->serialize($publication , 'json');
         $response = new Response($data);

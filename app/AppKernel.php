@@ -26,6 +26,7 @@ class AppKernel extends Kernel
             new SesionBundle\SesionBundle(),
             new AbonementBundle\AbonementBundle(),
             new EntityBundle\EntityBundle(),
+            new Nelmio\CorsBundle\NelmioCorsBundle()
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
