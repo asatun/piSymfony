@@ -2,7 +2,7 @@
 
 namespace OffreBundle\Controller;
 
-use Entity\EntityBundle\Entity\OffreEmploi;
+use EntityBundle\Entity\OffreEmploi;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;

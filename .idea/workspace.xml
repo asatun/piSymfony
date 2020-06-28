@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4a924f4-ec27-4f2e-941f-d23a2409d5b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+
+    <list default="true" id="f4a924f4-ec27-4f2e-941f-d23a2409d5b0" name="Default" comment="Gestion  CV+mise ajour">
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_17_06_2020_20_47_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_17_06_2020_20_47_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_20_06_20_00_27_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_20_06_20_00_27_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_17_06_2020_20_49_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_17_06_2020_20_49_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_20_06_20_00_27_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_20_06_20_00_27_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" phpInterpreterId="cbe0ae5a-7518-4e9b-8b19-e9d5555eb0be">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+<<<<<<< HEAD
     <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -143,6 +149,30 @@
         </entry>
       </file>
     </leaf>
+=======
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>annotation</find>
+      <find>Update</find>
+      <find>Response</find>
+      <find>JsonResponse</find>
+      <find>getTitre</find>
+    </findStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="c dump-autoload" />
+      <command text="s doctrine:generate:entity " />
+      <command text="s generate:controller" />
+      <command text="s server:run " />
+      <command text="c clear-cache" />
+      <command text="s server:run " />
+    </commandsHistory>
+>>>>>>> 2181cf80c9d93a1f62bacdcab6b49ff109068b56
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -182,13 +212,14 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="slave" />
+        <entry key="$PROJECT_DIR$" value="196183f885b5cd31cc2b470eb0abdb404ef6526a" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -227,54 +258,58 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+=======
+  <component name="PhpWorkspaceProjectConfiguration">
+>>>>>>> 2181cf80c9d93a1f62bacdcab6b49ff109068b56
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
-      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
-      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
-      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
-      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
-      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/vendor/psr/link" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/phpcollection/phpcollection" />
-      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
       <path value="$PROJECT_DIR$/vendor/jms/parser-lib" />
       <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
-      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
     </include_path>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="-1716" />
     <option name="y" value="-8" />
@@ -359,7 +394,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+  <component name="ProjectId" id="1dSnuMLyEhaXHJGbHrOUv1f6Iw7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> 2181cf80c9d93a1f62bacdcab6b49ff109068b56
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ForumBundle/Entity" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\xampp\bestteam\src\ForumBundle\Entity" />
+      <recent name="C:\xampp\htdocs\xampp\bestteam\src\EntityBundle\Entity" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="s debug:router" />
+      <command value="s generate:controller" />
+      <command value="s doctrine:schema:update" />
+      <command value="s doctrine:schema:update --force" />
+      <command value="s generate:bundle" />
+      <command value="s doctrine:generate:entity" />
+      <command value="c dump-autoload" />
+      <command value="s cache:clear" />
+      <command value="s server:run" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -374,6 +441,7 @@
     </option>
   </component>
   <component name="RunManager">
+<<<<<<< HEAD
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -429,21 +497,30 @@
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+=======
+    <configuration default="true" type="js.build_tools.gulp">
+>>>>>>> 2181cf80c9d93a1f62bacdcab6b49ff109068b56
       <node-interpreter>project</node-interpreter>
       <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
+      <method v="2" />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -453,12 +530,57 @@
       <option name="presentableId" value="Default" />
       <updated>1592320963433</updated>
       <workItem from="1592320964783" duration="3202000" />
+<<<<<<< HEAD
       <workItem from="1592532348315" duration="198000" />
       <workItem from="1592564876494" duration="7878000" />
       <workItem from="1592574355187" duration="1545000" />
+=======
+      <workItem from="1592427594425" duration="38134000" />
+      <workItem from="1592605232041" duration="3062000" />
+      <workItem from="1592626326400" duration="805000" />
+      <workItem from="1592627159076" duration="1866000" />
+      <workItem from="1592646406415" duration="1178000" />
+      <workItem from="1592648691054" duration="1988000" />
+      <workItem from="1592651604770" duration="148000" />
+      <workItem from="1592652284536" duration="12244000" />
+      <workItem from="1592670068495" duration="2461000" />
+      <workItem from="1592681725713" duration="17000" />
+      <workItem from="1592756015984" duration="1650000" />
+      <workItem from="1592761824699" duration="1321000" />
+>>>>>>> 2181cf80c9d93a1f62bacdcab6b49ff109068b56
     </task>
+    <task id="LOCAL-00001" summary="Gestion  CV">
+      <created>1592670981198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592670981198</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Gestion  CV+mise ajour">
+      <created>1592672428579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592672428579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="supprimé Bundle session en double + SUPPRESSION TOUS LES TABLE ENTITE utilisateur&#10;creation Bundle Entity Pour mettre tout les Entites dans le meme bundle &#10;remarque : il est strictement interdit de changer le nom ou de commité les dossiers  e configuration il faut juste commité le bundle de ou vous avez travaillé&#10;- merci de ne pas générer une entité utilisatuer ou d'autre chacun a ses entité">
+      <created>1592846160631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592846160631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="supprimé Bundle session en double + SUPPRESSION TOUS LES TABLE ENTITE utilisateur&#10;creation Bundle Entity Pour mettre tout les Entites dans le meme bundle&#10;remarque : il est strictement interdit de changer le nom ou de commité les dossiers  e configuration il faut juste commité le bundle de ou vous avez travaillé&#10;- merci de ne pas générer une entité utilisatuer ou d'autre chacun a ses entité">
+      <created>1592847421031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592847421031</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="25449000" />
   </component>
@@ -490,11 +612,32 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+=======
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+>>>>>>> 2181cf80c9d93a1f62bacdcab6b49ff109068b56
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/OffreBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -835,5 +978,14 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gestion  CV" />
+    <MESSAGE value="Gestion  CV+mise ajour" />
+    <MESSAGE value="FIX UP MED CHERIF" />
+    <MESSAGE value="supprimé Bundle session en double + SUPPRESSION TOUS LES TABLE ENTITE utilisateur&#10;creation Bundle Entity Pour mettre tout les Entites dans le meme bundle &#10;remarque : il est strictement interdit de changer le nom ou de commité les dossiers  e configuration il faut juste commité le bundle de ou vous avez travaillé&#10;- merci de ne pas générer une entité utilisatuer ou d'autre chacun a ses entité" />
+    <MESSAGE value="supprimé Bundle session en double + SUPPRESSION TOUS LES TABLE ENTITE utilisateur&#10;creation Bundle Entity Pour mettre tout les Entites dans le meme bundle&#10;remarque : il est strictement interdit de changer le nom ou de commité les dossiers  e configuration il faut juste commité le bundle de ou vous avez travaillé&#10;- merci de ne pas générer une entité utilisatuer ou d'autre chacun a ses entité" />
+    <option name="LAST_COMMIT_MESSAGE" value="supprimé Bundle session en double + SUPPRESSION TOUS LES TABLE ENTITE utilisateur&#10;creation Bundle Entity Pour mettre tout les Entites dans le meme bundle&#10;remarque : il est strictement interdit de changer le nom ou de commité les dossiers  e configuration il faut juste commité le bundle de ou vous avez travaillé&#10;- merci de ne pas générer une entité utilisatuer ou d'autre chacun a ses entité" />
+>>>>>>> 2181cf80c9d93a1f62bacdcab6b49ff109068b56
   </component>
 </project>
