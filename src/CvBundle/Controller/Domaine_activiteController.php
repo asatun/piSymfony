@@ -73,7 +73,7 @@ class Domaine_activiteController extends Controller
     /**
      * @Route("/updateDA/{id}", methods={"PUT","HEAD"})
      */
- /*   public function UpdateDAction(Request $request)
+    public function UpdateDAction(Request $request)
     {
 
         $doctrine = $this->getDoctrine();
@@ -94,7 +94,7 @@ class Domaine_activiteController extends Controller
         $manager->flush();
 
         return new JsonResponse(['modifier' => 'succes'], 200);
-    } */
+    }
 
     /**
      * @Route("/AddD", methods={"POST","HEAD"})
