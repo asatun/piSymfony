@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
+            new OffreBundle\OffreBundle(),
             new ForumBundle\ForumBundle(),
             new WorktnBundle\WorktnBundle(),
             new FOS\RestBundle\FOSRestBundle(),
@@ -26,6 +27,7 @@ class AppKernel extends Kernel
             new SesionBundle\SesionBundle(),
             new AbonementBundle\AbonementBundle(),
             new EntityBundle\EntityBundle(),
+            new Nelmio\CorsBundle\NelmioCorsBundle()
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

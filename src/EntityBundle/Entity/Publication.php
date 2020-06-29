@@ -38,14 +38,14 @@ class Publication
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="datePublication", type="date")
+     * @ORM\Column(name="date_publication", type="date")
      */
     private $datePublication;
 
     /**
      * @var int
      *
-     * @ORM\Column(name="idCreateur", type="integer")
+     * @ORM\Column(name="id_Createur", type="integer")
      */
     private $idCreateur;
 
@@ -125,7 +125,7 @@ class Publication
     /**
      * Get datePublication
      *
-     * @return string
+     * @return \DateTime
      */
     public function getDatePublication()
     {
