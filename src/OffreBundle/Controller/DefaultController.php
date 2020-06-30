@@ -2,6 +2,7 @@
 
 namespace OffreBundle\Controller;
 
+use EntityBundle\Entity\DomaineActivite;
 use EntityBundle\Entity\OffreEmploi;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -27,6 +28,21 @@ class DefaultController extends Controller
         $rep = $this->getDoctrine()->getRepository(OffreEmploi::class);
         $offre = $rep->findAll();
         $data = $this->get('jms_serializer')->serialize($offre, 'json');
+        $response = new Response($data);
+        $response->headers->set('Content-Type', 'application/json');
+        return $response;
+    }
+
+    /**
+     * @Route("/listeDomaines")
+     * @Method({"GET", "HEAD"})
+     */
+    public function getListeDomaines()
+    {
+
+        $rep = $this->getDoctrine()->getRepository(DomaineActivite::class);
+        $domaine = $rep->findAll();
+        $data = $this->get('jms_serializer')->serialize($domaine, 'json');
         $response = new Response($data);
         $response->headers->set('Content-Type', 'application/json');
         return $response;
@@ -100,6 +116,19 @@ class DefaultController extends Controller
         return new Response('suppression effectué avec succès', Response::HTTP_CREATED);
     }
 
+    /**
+     *@Route("/getOffresByIdRecruteur/{id}", methods={"GET"})
+     */
+    public function getListeOffreByIdRecruteur(Request $request,$id)
+    {
+
+        $rep = $this->getDoctrine()->getRepository(OffreEmploi::class);
+        $offre = $rep->getListeOffreByIdRecruteur($id);
+        $data = $this->get('jms_serializer')->serialize($offre, 'json');
+        $response = new Response($data);
+        $response->headers->set('Content-Type', 'application/json');
+        return $response;
+    }
 
 
 }

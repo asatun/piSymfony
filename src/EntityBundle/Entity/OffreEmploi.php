@@ -79,6 +79,21 @@ class OffreEmploi
 
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="image_offre", type="string", length=100)
+     */
+    private $imageOffre;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=100)
+     */
+    private $email;
+
+
+    /**
      * Get id
      *
      * @return int
@@ -293,5 +308,55 @@ class OffreEmploi
 
         return $this;
     }
+
+    /**
+     * Set imageOffre
+     *
+     * @param string $imageOffre
+     *
+     * @return OffreEmploi
+     */
+    public function setImageOffre($imageOffre)
+    {
+        $this->imageOffre = $imageOffre;
+
+        return $this;
+    }
+
+    /**
+     * Get imageOffre
+     *
+     * @return string
+     */
+    public function getImageOffre()
+    {
+        return $this->imageOffre;
+    }
+
+
+    /**
+     * Set email
+     *
+     * @param string $email
+     *
+     * @return OffreEmploi
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+
+        return $this;
+    }
+
+    /**
+     * Get email
+     *
+     * @return string
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
 }
 

@@ -10,4 +10,12 @@ namespace EntityBundle\Repository;
  */
 class OffreEmploiRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function getListeOffreByIdRecruteur($id){
+
+        $query = $this->createQueryBuilder('p')
+            ->where('p.idRecruteur = ?1')
+            ->setParameter(1, $id)
+            ->getQuery();
+        return $results = $query->getResult();
+    }
 }
