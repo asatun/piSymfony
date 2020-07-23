@@ -127,6 +127,7 @@ class DefaultController extends Controller
         $data = $this->get('jms_serializer')->serialize($offre, 'json');
         $response = new Response($data);
         $response->headers->set('Content-Type', 'application/json');
+
         return $response;
     }
 
